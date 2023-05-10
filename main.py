@@ -4,7 +4,6 @@ import boto3
 from botocore.exceptions import ClientError
 from apscheduler.schedulers.background import BackgroundScheduler
 from trello import TrelloClient
-import os
 
 app = Flask(__name__)
 
